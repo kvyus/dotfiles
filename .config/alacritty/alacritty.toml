@@ -1,0 +1,18 @@
+[window]
+opacity = 0.8
+padding = { x = 15, y = 15 }
+
+[font]
+
+normal = { family = "JetBrains Mono", style = "Regular" }
+bold = { family = "JetBrains Mono", style = "Bold" }
+italic = { family = "JetBrains Mono", style = "Regular Italic" }
+bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
+
+size = 12.25
+
+[colors.primary]
+
+background = "#232629"
+foreground = "#d8dee9"
+

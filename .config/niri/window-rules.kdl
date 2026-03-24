@@ -1,0 +1,48 @@
+
+// Open the Firefox picture-in-picture player as floating by default.
+window-rule {
+    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    open-floating true
+}
+
+window-rule {
+    match app-id=r#"firefox$"# title="Firefox"
+    open-on-workspace "B"
+    open-maximized true
+}
+
+window-rule {
+   match title="Steam"
+   open-on-workspace "G"
+}
+
+window-rule {
+   match title="Telegram"
+   open-on-workspace "M"
+}
+
+window-rule {
+   match app-id=r#"vesktop$"#
+   open-on-workspace "M"
+}
+
+window-rule {
+   match app-id=r#"spotify$"#
+   open-on-workspace "M"
+}
+
+window-rule {
+   geometry-corner-radius 12
+   clip-to-geometry true
+}
+
+window-rule {
+   match app-id=r#"nemo$"#
+   open-floating true
+}
+
+window-rule {
+   match title="Obsidian"
+   open-on-workspace "T"
+   open-maximized true
+}

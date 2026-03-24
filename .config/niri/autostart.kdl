@@ -1,0 +1,8 @@
+
+spawn-at-startup "alacritty"
+spawn-at-startup "vesktop-bin"
+spawn-at-startup "firefox-bin"
+spawn-at-startup "qs"
+spawn-at-startup "gentoo-pipewire-launcher"
+spawn-sh-at-startup "swaybg -i ~/Downloads/wallhaven-rqy5z1.png"
+spawn-at-startup "xwayland-satellite"
