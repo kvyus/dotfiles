@@ -12,6 +12,8 @@ export EDITOR='nvim'
 alias v='nvim'
 alias dv='doas nvim'
 alias demerge='doas emerge'
+alias ls='lsd'
+alias lsa='lsd -a'
 
 bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
@@ -30,3 +32,5 @@ ZSH_HIGHLIGHT_STYLES[globbing]='fg=#EBCB8B'
 ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#BF616A'
 
 eval "$(zoxide init zsh)"
+
+pokemon-colorscripts -r
