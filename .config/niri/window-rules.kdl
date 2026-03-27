@@ -46,3 +46,8 @@ window-rule {
    open-on-workspace "T"
    open-maximized true
 }
+
+window-rule {
+   match title="imv"
+   open-floating true
+}
